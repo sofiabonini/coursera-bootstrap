@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio of van Gogh</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container col-10">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./gallery.html"> Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./jobs.html"> Jobs</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a id="editButton" class="textSize">
+                    <span class="fa fa-edit textSize"></span> Edit</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12">
+                    <h1>Portfolio of VanGogh</h1>
+                    <p>An Artist's Portfolio</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class=" img-fluid"
+                                src="img/vanGogh.jpg" alt="Cypresse">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/vanGogh_2.jpg" alt="Tracce">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/vanGogh_3.jpg" alt="Arles">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-warning btn-sm" id="carouselButton">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                    </button>
+                </div>
+             </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-12 col-sm-4 order-sm-first">
+                <img class="portrait" src="img/portrait.jpg" alt="Portrait">
+                <h2 class="mt-0">Contacts</h2>
+                <p>
+                    Tel. : +384 2838984243 <br>
+                    Email: vincentvangogh@gmail.com <br>
+                    Address: Museumplein 6, 1071 DJ Amsterdam <br>
+                    Instagram: @vanGone <br>
+                </p>
+            </div>
+            <div class="col col-sm order-sm-last" style="margin-top: 50px;">
+                <p>
+                    Vincent van Gogh, in full Vincent Willem van Gogh, (born March 30, 1853, Zundert,
+                    Netherlands—died July 29, 1890, Auvers-sur-Oise, near Paris, France), Dutch painter,
+                    generally considered the greatest after Rembrandt van Rijn, and one of the greatest of
+                    the Post-Impressionists. The striking colour, emphatic brushwork, and contoured forms
+                    of his work powerfully influenced the current of Expressionism in modern art. Van Gogh’s art
+                    became astoundingly popular after his death, especially in the late 20th century,
+                    when his work sold for record-breaking sums at auctions around the world and was featured
+                    in blockbuster touring exhibitions. In part because of his extensive published letters,
+                    van Gogh has also been mythologized in the popular imagination as the quintessential tortured artist.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer"> 
+        <div class ="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./jobs.html">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Company Address</h5>
+                    <address>
+		              Jakob Haringer Straße, 2a<br>
+		              Salzburg, Salzburg<br>
+		              Austria<br>
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:example@webpage.net">example@webpage.net</a>
+		           </address>
+                </div>
+                <div class ="col-12 col-sm-4">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2021 Portfolio</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
