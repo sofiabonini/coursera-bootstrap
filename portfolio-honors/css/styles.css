@@ -9,6 +9,13 @@
   align-content: center;
   min-height: 400px; }
 
+.row-breadcrumb {
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px ridge;
+  align-content: center;
+}
+
 .footer {
   background-color: #f5db37;
   margin: 0px auto;
@@ -98,6 +105,12 @@ body {
 }
 
 .gallery {
-  width: 500px;
+  width: 350px;
   height: auto;
+}
+
+.gallery-card {
+  width: fit-content;
+  height: auto;
+  margin: 20px;
 }
